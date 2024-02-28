@@ -132,6 +132,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.4-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -196,6 +198,7 @@ GEM
       sorbet-static (= 0.5.10993)
     sorbet-runtime (0.5.10993)
     sorbet-static (0.5.10993-universal-darwin-22)
+    sorbet-static (0.5.10993-x86_64-linux)
     sorbet-static-and-runtime (0.5.10993)
       sorbet (= 0.5.10993)
       sorbet-runtime (= 0.5.10993)
@@ -212,6 +215,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.4-arm64-darwin)
+    sqlite3 (1.6.4-x86_64-linux)
     stimulus-rails (1.2.2)
       railties (>= 6.0.0)
     stringio (3.0.8)
@@ -253,7 +257,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    yard (0.9.34)
+    yard (0.9.35)
     yard-sorbet (0.8.1)
       sorbet-runtime (>= 0.5)
       yard (>= 0.9)
@@ -261,6 +265,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
